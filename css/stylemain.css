@@ -2,10 +2,132 @@
     font-family: "Lucida Grande";
     src: url(../fonts/LucidaGrande.ttf);
 }
-
+@media(max-width:400px){
+    .fine{
+    font-family: "Futura LT" !important;
+    font-size: 40px !important;
+    letter-spacing: 0.4em !important ;
+}
 p{
-font-family:"Lucida Grande" !important;
+    
+font-family:"Lato" !important;
+text-transform:uppercase;
+font-size:15px !important;
+letter-spacing: 0.2em !important;
+}
+ .dramatics {
+    font-family: "Futura LT" !important;
+    font-size: 40px !important;
+    letter-spacing: 0.2em !important;
+}
+ .lit {
+    font-family: "Futura LT" !important;
+    font-size: 40px !important;
+     letter-spacing: 0.2em !important;
+}
+ .music {
+    font-family: "Futura LT" !important;
+    font-size: 40px !important;
+    letter-spacing: 0.8em !important;
+}
+.extra{
+    font-family: "Lato" !important;
+    font-size: 40px !important;
+     
 
+}
+.the{
+    font-family: "Lato" !important;
+    font-size: 20px !important;
+     
+}
+}
+p{
+font-family:"Lato" !important;
+text-transform:uppercase;
+font-size:15px !important;
+letter-spacing: 0.5em;
+}
+.dance{
+    background-color: mediumvioletred;
+    color:white;
+}
+.extra{
+    font-family: "Lato" !important;
+    font-size: 100px;
+     
+
+}
+.exdate{
+     font-family: "Montserrat" !important;
+    font-size: 30px !important;
+    letter-spacing: 0.5em;
+  
+    
+}
+.the{
+    font-family: "Lato" !important;
+    font-size: 30px;
+     
+}
+.det{
+    font-family: "Lato";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.query{
+    font-family: "Lato" !important;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.exsave{
+    font-size: 20px !important;
+   letter-spacing: 0em;
+    text-transform: uppercase;
+}
+.literature-sec{
+    background-color:white;
+}
+.dramatics-sec{
+    background-color: darkslategray;
+    color:white;
+}
+.music-sec{
+    background-color: darkslateblue;
+    color:white;
+}
+
+.fine-sec{
+    background-color: darkred;
+    color:white;
+}
+.foot{
+    text-transform: uppercase;
+    font-family: "Lato" !important;
+    
+}
+
+
+.fine{
+    font-family: "Futura LT" !important;
+    font-size: 100px ;
+    letter-spacing: 0.5em ;
+}
+ .dramatics {
+    font-family: "Futura LT" !important;
+    font-size: 100px ;
+    letter-spacing: 0.8em ;
+}
+ .lit {
+    font-family: "Futura LT" !important;
+    font-size: 100px ;
+    letter-spacing: 0.7em ;
+}
+ .music {
+    font-family: "Futura LT" ;
+    font-size: 100px;
+    letter-spacing: 2.1em ;
 }
 html,
 body {
@@ -26,9 +148,11 @@ hr {
 hr.light {
     border-color: #fff;
 }
-
+.fa-heart{
+    color:red;
+}
 a {
-    color: crimson;
+    color: yellow;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -36,7 +160,7 @@ a {
 
 a:hover,
 a:focus {text-decoration:none;
-    color: darkblue;
+    color: white;
 }
 
 h1,
@@ -333,9 +457,10 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
+  
+    border:10px solid black;
     color: #222;
-    background-color: #fff;
+    background-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -347,9 +472,10 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
+ 
+    border: 5px solid black !important;
     color: #222;
-    background-color: #f2f2f2;
+    
 }
 
 .btn-default:active,
@@ -439,8 +565,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    border: 5px solid black;
+    border-radius: 0px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
