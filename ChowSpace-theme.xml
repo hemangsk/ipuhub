@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="ChowSpace" version="1611">
+	<properties>
+		<templateset><![CDATA[28]]></templateset>
+		<editortheme><![CDATA[default]]></editortheme>
+		<imgdir><![CDATA[images/ChowSpace]]></imgdir>
+		<logo><![CDATA[images/ChowSpace/logo_ChowSpace.png]]></logo>
+		<tablespace><![CDATA[4]]></tablespace>
+		<borderwidth><![CDATA[1]]></borderwidth>
+	</properties>
+	<stylesheets>
+		<stylesheet name="global.css" version="1611"><![CDATA[body {
+	background: #efefef;
+        background-image:url(images/ChowSpace/SpaceBg.png);
+        background-repeat:repeat;
+	color: #4c4c4c;	
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+	text-align: center; /* IE 5 fix */
+	line-height: 1.4;
+        margin:0px;
+}
+
+.SmallTopText {
+	color: #4c4c4c;	
+font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+}
+
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #e55c2f;
+	text-decoration: underline;
+}
+
+#container {
+	background: #fff;
+	width: 1100px;
+	color: #000000;
+	border: 1px solid #e4e4e4;
+	margin: auto auto;
+	padding: 15px 35px 35px 35px;
+	text-align: left;
+	-moz-box-shadow: 0 0 10px #dbd9d9;
+	-webkit-box-shadow: 0 0 10px#dbd9d9;
+	box-shadow: 0 0 10px #dbd9d9;
+}
+
+#content {
+	/* FIX: Make internet explorer wrap correctly */
+	width: auto !important;
+}
+
+.menu ul {
+	color: #000000;
+	font-weight: bold;
+	text-align: right;
+	padding: 4px;
+}
+
+.menu ul a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:hover, .menu ul a:active {
+	color: #4874a3;
+	text-decoration: none;
+}
+
+#panel {
+	background: #efefef;
+	color: #000000;
+	font-size: 11px;
+	border: 1px solid #D4D4D4;
+	padding: 8px;
+}
+
+#panel .remember_me input {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.logo {
+padding-top:15px;
+}
+
+table {
+	color: #4c4c4c;	
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size: 13px;
+}
+
+.tborder {
+	background: #f8f8f7;
+	width: 100%;
+	margin: auto auto;
+	border: 0px solid #f26f3a;
+}
+
+.thead {
+	background: url(images/ChowSpace/Top_Select.png) top left repeat-x;
+	color: #ffffff;
+padding:8px;
+
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px 4px 0 0;
+}
+
+.thead a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:hover, .thead a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.tcat {
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 12px;
+}
+
+.tcat a:link {
+	color: #fff;
+}
+
+.tcat a:visited {
+	color: #fff;
+}
+
+.tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.trow1 {
+	background: #fcfcfc;
+padding:8px;
+}
+
+.trow2 {
+	background: #f7f7f7;
+padding:8px;
+}
+
+.trow_shaded {
+	background: #ffdde0;
+}
+
+.trow_selected td {
+	background: #FFFBD9;
+}
+
+.trow_sep {
+	background: #e5e5e5;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tfoot {
+	background: #4c4c4c;
+	color: #ffffff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 0 0 4px 4px;
+}
+
+.tfoot a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.bottommenu {
+	background: #efefef;
+	color: #000000;
+	border: 1px solid #f7f7f7;
+	padding: 10px;
+}
+
+.navigation {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navigation a:link {
+	text-decoration: none;
+}
+
+.navigation a:visited {
+	text-decoration: none;
+}
+
+.navigation a:hover, .navigation a:active {
+	text-decoration: none;
+}
+
+.navigation .active {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.smalltext {
+	font-size: 11px;
+}
+
+.largetext {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input.textbox {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #4c4c4c;
+	padding: 1px;
+}
+
+textarea {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #4c4c4c;
+	padding: 2px;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+select {
+	background: #ffffff;
+	border: 1px solid #4c4c4c;
+}
+
+.editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+.editor_control_bar {
+	background: #fff;
+	border: 1px solid #4c4c4c;
+}
+
+.autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+.autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+.popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+.popup_menu .popup_item {
+	background: #fff;
+	color: #000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #C7DBEE;
+	color: #000;
+}
+
+.trow_reputation_positive {
+	background: #ccffcc;
+}
+
+.trow_reputation_negative {
+	background: #ffcccc;
+}
+
+.reputation_positive {
+	color: green;
+}
+
+.reputation_neutral {
+	color: #444;
+}
+
+.reputation_negative {
+	color: red;
+}
+
+.invalid_field {
+	border: 1px solid #f30;
+	color: #f30;
+}
+
+.valid_field {
+	border: 1px solid #0c0;
+}
+
+.validation_error {
+	background: url(images/ChowSpace/invalid.gif) no-repeat center left;
+	color: #f30;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+.validation_success {
+	background: url(images/ChowSpace/valid.gif) no-repeat center left;
+	color: #00b200;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+.validation_loading {
+	background: url(images/ChowSpace/spinner.gif) no-repeat center left;
+	color: #555;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-left: 22px;
+}
+
+/* Additional CSS (Master) */
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+	float: none;
+	width: 1%;
+}
+
+.hiddenrow {
+	display: none;
+}
+
+.selectall {
+	background-color: #FFFBD9;
+	font-weight: bold;
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+}
+
+.menu li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.menu img {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#panel .links {
+	margin: 0;
+	float: right;
+}
+
+.expcolimage {
+	float: right;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+
+img.attachment {
+	border: 1px solid #E9E5D7;
+	padding: 2px;
+}
+
+hr {
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+	border: 0px;
+}
+
+#copyright {
+	font-size: 11px;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#debug {
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+
+blockquote {
+	border: 1px solid #ccc;
+	margin: 0;
+	background: #fff;
+	padding: 4px;
+}
+
+blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+blockquote cite span {
+	float: right;
+	font-weight: normal;
+}
+
+blockquote cite span.highlight {
+	float: none;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.codeblock {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+.codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+.subforumicon {
+	border: 0;
+	vertical-align: middle;
+}
+
+.separator {
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: left;
+}
+
+.popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+.autocomplete {
+	text-align: left;
+}
+
+.subject_new {
+	font-weight: bold;
+}
+
+.highlight {
+	background: #FFFFCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.pm_alert {
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.red_alert {
+	background: #FBE3E4;
+	border: 1px solid #A5161A;
+	color: #A5161A;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.high_warning {
+	color: #CC0000;
+}
+
+.moderate_warning {
+	color: #F3611B;
+}
+
+.low_warning {
+	color: #AE5700;
+}
+
+div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	background: #FFF6BF;
+	font-size: 12px;
+}
+
+div.error p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #C00;
+	background: url(images/ChowSpace/error.gif) no-repeat 0;
+}
+
+div.error ul {
+	margin-left: 24px;
+}
+
+.online {
+	color: #e2582c;
+}
+
+.offline {
+	color: #C7C7C7;
+}
+
+.pagination {
+	font-size: 11px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+
+.pagination .pages {
+	font-weight: bold;
+}
+
+.pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.pagination a {
+	border: 1px solid #4c4c4c;
+}
+
+.pagination .pagination_current {
+	background: #e2582c;
+	border: 1px solid #e2582c;
+	font-weight: bold;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+.thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.thread_legend dd {
+	padding-bottom: 4px;
+	margin-right: 15px;
+}
+
+.thread_legend img {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+.forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.forum_legend dd {
+	float: left;
+	margin-right: 10px;
+}
+
+.forum_legend dt {
+	margin-right: 10px;
+	float: left;
+}
+
+.success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.post_body {
+	padding: 5px;
+}
+
+.post_content {
+	padding: 5px 10px;
+}
+
+.quick_jump {
+	background: url(images/ChowSpace/jump.gif) no-repeat 0;
+	width: 13px;
+	height: 13px;
+	padding-left: 13px; /* amount of padding needed for image to fully show */
+	vertical-align: middle;
+	border: none;
+}
+
+.repbox {
+	font-size:16px;
+	font-weight: bold;
+	padding:5px 7px 5px 7px;
+}
+
+._neutral {
+	background-color:#FAFAFA;
+	color: #999999;
+	border:1px solid #CCCCCC;
+}
+
+._minus {
+	background-color: #FDD2D1;
+	color: #CB0200;
+	border:1px solid #980201;
+}
+
+._plus {
+	background-color:#E8FCDC;
+	color: #008800;
+	border:1px solid #008800;
+}
+
+.pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+]]>
+		</stylesheet>
+		<stylesheet name="ChowSpace.css" version="1611"><![CDATA[.jqueryslidemenu{
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight:400;
+width: 100%;
+margin:0px;
+margin-top:10px;
+margin-bottom:5px;
+height:50px;
+padding:0px;
+background:url(Images/ChowSpace/TopMenu_BgBig.png) bottom left repeat-x;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.jqueryslidemenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+padding: 15px 15px;
+border-right: 1px solid #ccccca;
+color: #4c4c4c;
+text-decoration: none;
+display: inline-block;
+
+}
+
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color: #4c4c4c;
+}
+
+.jqueryslidemenu ul li a:hover{
+color: #4c4c4c;
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+border: 0 1px 1px 1px solid #ccccca;
+position: absolute;
+left: 0;
+visibility: hidden;
+display: inline;
+z-index:1100;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+display: list-item;
+float: none;
+left:-5px;
+
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+width: 160px; /*width of sub menus*/
+padding: 10px 0 10px 18px;
+margin: 0;
+border-top-width: 0;
+text-align:left;
+
+background:url(Images/ChowSpace/TopMenu_BgBig.png) bottom left repeat-x;
+border-bottom: 1px solid #fcfcfc;
+}
+
+.jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
+background: #eff9ff;
+color: black;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+
+.downarrowclass{
+position: absolute;
+top: 20px;
+right: 0px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+.TopCurrent {
+background:url(Images/ChowSpace/Top_Select.png) bottom left repeat-x;	
+color:#ffffff;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius:4px 0 0 4px;
+}
+
+
+
+/* ######################################### */
+
+
+
+#breadcrumbs-one{
+  background: #eee;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #f5f5f5 #e5e5e5 #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  overflow: hidden;
+  width: 100%;
+margin:0px;
+padding:0px;
+font-family: 'Open Sans', sans-serif;
+font-size:13px;
+font-weight:bold;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#breadcrumbs-one li{
+  float: left;
+}
+
+#breadcrumbs-one a{
+  padding: .5em 1em .5em 2em;
+  float: left;
+  text-decoration: none;
+  color: #4c4c4c;
+  position: relative;
+  background-color: #fcfcfc;
+  background-image: linear-gradient(to right, #f5f5f5, #ddd);  
+}
+
+#breadcrumbs-one li:first-child a{
+  padding-left: 1em;
+  border-radius: 3px 0 0 3px;
+}
+
+#breadcrumbs-one a:hover{
+  background: #e55c2f;
+color:#fff;
+}
+
+#breadcrumbs-one a::after,
+#breadcrumbs-one a::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid;
+  right: -1em;
+}
+
+#breadcrumbs-one a::after{ 
+  z-index: 2;
+  border-left-color: #ddd;  
+}
+
+#breadcrumbs-one a::before{
+  border-left-color: #ccc;  
+  right: -1.1em;
+  z-index: 1; 
+}
+
+#breadcrumbs-one a:hover::after{
+  border-left-color: #e55c2f;
+}
+
+#breadcrumbs-one .current,
+#breadcrumbs-one .current:hover{
+  font-weight: bold;
+  background: none;
+}
+
+#breadcrumbs-one .current::after,
+#breadcrumbs-one .current::before{
+  content: normal;  
+}]]>
+		</stylesheet>
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1611"><![CDATA[.star_rating,
+.star_rating li a:hover,
+.star_rating .current_rating {
+	background: url(images/ChowSpace/star_rating.gif) left -1000px repeat-x;
+	vertical-align: middle;
+}
+
+.star_rating {
+	position: relative;
+	width:80px;
+	height:16px;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-position: left top;
+}
+
+td .star_rating {
+	margin: auto;
+}
+
+.star_rating li {
+	display: inline;
+}
+
+.star_rating li a,
+.star_rating .current_rating {
+	position: absolute;
+	text-indent: -1000px;
+	height: 16px;
+	line-height: 16px;
+	outline: none;
+	overflow: hidden;
+	border: none;
+	top:0;
+	left:0;
+}
+
+.star_rating_notrated li a:hover {
+	background-position: left bottom;
+}
+
+.star_rating li a.one_star {
+	width:20%;
+	z-index:6;
+}
+
+.star_rating li a.two_stars {
+	width:40%;
+	z-index:5;
+}
+
+.star_rating li a.three_stars {
+	width:60%;
+	z-index:4;
+}
+
+.star_rating li a.four_stars {
+	width:80%;
+	z-index:3;
+}
+
+.star_rating li a.five_stars {
+	width:100%;
+	z-index:2;
+}
+
+.star_rating .current_rating {
+	z-index:1;
+	background-position: left center;
+}
+
+.star_rating_success, .success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.inline_rating {
+	float: left;
+	vertical-align: middle;
+	padding-right: 5px;
+}]]>
+		</stylesheet>
+	</stylesheets>
+	<templates>
+		<template name="header" version="1611"><![CDATA[<div id="container">
+		<a name="top" id="top"></a>
+<div id="header">
+<div class=''>
+<div style='float:left; width:30%; height:80px;'><a href="{$mybb->settings['bburl']}/index.php"><img src="{$theme['logo']}" alt="{$mybb->settings['bbname']}" title="{$mybb->settings['bbname']}" class='logo'/></a></div>
+<div style='float:right; height:80px;'>{$welcomeblock}</div>
+</div>
+
+<div class="menu" style="clear:both;">
+<div id="myslidemenu" class="jqueryslidemenu">
+<ul>
+<li class='TopCurrent'><a href="{$mybb->settings['bburl']}/index.php" style='color:#fff;'><img src="{$mybb->settings['bburl']}/Images/ChowSpace/Home_white.png" alt="Home" style='padding-top:2px;'/>&nbsp;</a></li>
+<li><a href="#"><img src="{$mybb->settings['bburl']}/Images/ChowSpace/icon_board.png" alt="Home" style='padding-top:0px;'/>Board</a>
+<ul>
+<li><a href="{$mybb->settings['bburl']}/search.php?action=getnew">{$lang->welcome_newposts}</a></li>
+<li><a href="{$mybb->settings['bburl']}/search.php?action=getdaily">{$lang->welcome_todaysposts}</a></li>
+</ul>
+</li>
+<li><a href="{$mybb->settings['bburl']}/search.php"><img src="{$theme['imgdir']}/toplinks/search.gif" alt="" title="" />{$lang->toplinks_search}</a></li>
+<li><a href="{$mybb->settings['bburl']}/memberlist.php"><img src="{$theme['imgdir']}/toplinks/memberlist.gif" alt="" title="" />{$lang->toplinks_memberlist}</a></li>
+<li><a href="{$mybb->settings['bburl']}/calendar.php"><img src="{$theme['imgdir']}/toplinks/calendar.gif" alt="" title="" />{$lang->toplinks_calendar}</a></li>
+<li><a href="{$mybb->settings['bburl']}/misc.php?action=help"><img src="{$theme['imgdir']}/toplinks/help.gif" alt="" title="" />{$lang->toplinks_help}</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+	<div id="content">
+			{$pm_notice}
+			{$bannedwarning}
+			{$bbclosedwarning}
+			{$unreadreports}
+			{$pending_joinrequests}
+			<navigation><br/>]]></template>
+		<template name="headerinclude" version="1611"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/general.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/popup_menu.js?ver=1600"></script>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/Images/ChowSpace/JScripts/jqueryslidemenu.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+{$stylesheets}
+<script type="text/javascript">
+<!--
+	var cookieDomain = "{$mybb->settings['cookiedomain']}";
+	var cookiePath = "{$mybb->settings['cookiepath']}";
+	var cookiePrefix = "{$mybb->settings['cookieprefix']}";
+	var deleteevent_confirm = "{$lang->deleteevent_confirm}";
+	var removeattach_confirm = "{$lang->removeattach_confirm}";
+	var loading_text = '{$lang->ajax_loading}';
+	var saving_changes = '{$lang->saving_changes}';
+	var use_xmlhttprequest = "{$mybb->settings['use_xmlhttprequest']}";
+	var my_post_key = "{$mybb->post_code}";
+	var imagepath = "{$theme['imgdir']}";
+// -->
+
+</script>
+{$newpmmsg}]]></template>
+		<template name="footer" version="1611"><![CDATA[<br />
+			<div class="bottommenu">
+				<div class="float_right">{$lang_select}</div>
+				<div>
+					<span class="smalltext"><a href="{$mybb->settings['contactlink']}">{$lang->bottomlinks_contactus}</a> | <a href="{$mybb->settings['homeurl']}">{$mybb->settings['homename']}</a> | <a href="#top">{$lang->bottomlinks_returntop}</a> | <a href="#content">{$lang->bottomlinks_returncontent}</a> | <a href="<archive_url>">{$lang->bottomlinks_litemode}</a> | <a href="{$mybb->settings['bburl']}/misc.php?action=syndication">{$lang->bottomlinks_syndication}</a></span>
+				</div>
+			</div>
+			</div>
+		<hr class="hidden" />
+			<div id="copyright">
+				<div id="debug"><debugstuff></div>
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					 It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					 to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					 you may be refused support on the MyBB Community Forums.
+
+					 This is free software, support us and we'll support you. -->
+{$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>. Theme By <a href="http://chowsblog.com/" target="_blank" alt="chowsblog.com">Chow.k</a>.<br />
+				<!-- End powered by -->
+				<br />
+<br class="clear" />
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE -->{$task_image}<!-- End task image code -->
+{$auto_dst_detection}
+		</div>
+		</div>]]></template>
+		<template name="nav_sep" version="1611"><![CDATA[]]></template>
+		<template name="nav_sep_active" version="1611"><![CDATA[]]></template>
+		<template name="nav_bit" version="1611"><![CDATA[<li><a href="{$navbit['url']}">{$navbit['name']}</a></li>{$sep}]]></template>
+		<template name="nav_bit_active" version="1611"><![CDATA[<li><a href="#">{$navbit['name']}</a></li>]]></template>
+		<template name="nav" version="1611"><![CDATA[<ul id="breadcrumbs-one">
+{$nav}{$activesep}{$activebit}
+</ul>]]></template>
+		<template name="header_welcomeblock_member" version="1611"><![CDATA[<table>
+<tr>
+<td><img id="avatar" style="max-width:60px; border:2px solid #f0efef;"/></td>
+<td>
+<table class="SmallTopText">
+<tr>
+<td>{$lang->welcome_back} </td>
+</tr>
+<tr>
+<td>(<a href="{$mybb->settings['bburl']}/usercp.php"><strong>{$lang->welcome_usercp}</strong></a>{$modcplink}{$admincplink} &mdash; <a href="#" onclick="MyBB.popupWindow('{$mybb->settings['bburl']}/misc.php?action=buddypopup', 'buddyList', 350, 350);">{$lang->welcome_open_buddy_list}</a> &mdash; <a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}">{$lang->welcome_logout}</a>)</td>
+</tr>
+<tr>
+<td><a href="{$mybb->settings['bburl']}/search.php?action=getnew">{$lang->welcome_newposts}</a> | <a href="{$mybb->settings['bburl']}/search.php?action=getdaily">{$lang->welcome_todaysposts}</a> | <a href="{$mybb->settings['bburl']}/private.php">{$lang->welcome_pms}</a> {$lang->welcome_pms_usage}
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function(){
+var user_avatar = "{$mybb->user['avatar']} ";
+var default_avatar = "{$mybb->settings['bburl']}/Images/ChowSpace/no-image.png";
+jQuery( "#avatar" ).error(function() {
+  jQuery(this).attr( "src", default_avatar );
+}).attr( "src", user_avatar );
+});
+</script>]]></template>
+		<template name="header_welcomeblock_guest" version="1611"><![CDATA[<script type="text/javascript">
+<!--
+	lang.username = "{$login_username}";
+	lang.password = "{$lang->login_password}";
+	lang.login = "{$lang->login}";
+	lang.lost_password = " &mdash; <a href=\"{$mybb->settings['bburl']}/member.php?action=lostpw\">{$lang->lost_password}<\/a>";
+	lang.register_url = " &mdash; <a href=\"{$mybb->settings['bburl']}/member.php?action=register\">{$lang->welcome_register}<\/a>";
+	lang.remember_me = "{$lang->remember_me}";
+// -->
+</script>
+<table>
+<tr>
+<td><img src="Images/ChowSpace/no-image.png" style="max-width:60px; border:2px solid #f0efef;"/></td>
+<td class="SmallTopText">
+<table>
+<tr>
+<td class="SmallTopText">{$lang->welcome_current_time}</td>
+</tr>
+<tr>
+<td class="SmallTopText"><span id="quick_login">{$lang->welcome_guest} (<a href="{$mybb->settings['bburl']}/member.php?action=login" onclick="MyBB.quickLogin(); return false;">{$lang->welcome_login}</a> &mdash; <a href="{$mybb->settings['bburl']}/member.php?action=register">{$lang->welcome_register}</a>)</span></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>]]></template>
+		<template name="forumbit_depth2_forum" version="1611"><![CDATA[<tr>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td class="{$bgcolor}" valign="top">
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$modlist}{$subforums}</div>
+</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$threads}{$unapproved['unapproved_threads']}</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$posts}{$unapproved['unapproved_posts']}</td>
+<td class="{$bgcolor}" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
+</tr>]]></template>
+		<template name="forumbit_depth2_cat" version="1611"><![CDATA[<tr>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td class="{$bgcolor}" valign="top">
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$subforums}</div>
+</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$threads}{$unapproved['unapproved_threads']}</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$posts}{$unapproved['unapproved_posts']}</td>
+<td class="{$bgcolor}" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
+</tr>]]></template>
+		<template name="forumbit_depth3_statusicon" version="1611"><![CDATA[<img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="subforumicon ajax_mark_read" id="mark_read_{$forum['fid']}" />]]></template>
+	</templates>
+</theme>
