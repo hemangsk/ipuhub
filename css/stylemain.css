@@ -2,7 +2,10 @@
     font-family: "Lucida Grande";
     src: url(../fonts/LucidaGrande.ttf);
 }
-@media(max-width:400px){
+@media(max-width:600px){
+    header{
+        background-size:inherit!important;
+    }
     .fine{
     font-family: "Futura LT" !important;
     font-size: 40px !important;
@@ -53,7 +56,7 @@ letter-spacing: 0.5em;
     color:white;
 }
 .extra{
-    font-family: "Lato" !important;
+    font-family: "Futura LT" !important;
     font-size: 100px;
      
 
@@ -66,7 +69,7 @@ letter-spacing: 0.5em;
     
 }
 .the{
-    font-family: "Lato" !important;
+    font-family: "Futura LT" !important;
     font-size: 30px;
      
 }
@@ -125,7 +128,7 @@ letter-spacing: 0.5em;
     letter-spacing: 0.7em ;
 }
  .music {
-    font-family: "Futura LT" ;
+    font-family: "Futura LT" !important ;
     font-size: 100px;
     letter-spacing: 2.1em ;
 }
