@@ -1,20 +1,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" lang="nl">
 
 <head>
-<meta property="og:url"                content="http://ipuhub.com" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="IPU HUB :: CAMPUS PORTAL" />
-<meta property="og:description"        content="ONE STOP INFO FOR THE USS'S DEPARTMENT FEST" />
-<meta property="og:image"              content="https://farm2.staticflickr.com/1629/24881630519_37a377f448_b.jpg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>IPU HUB</title>
+  <title>WELCOME :: IPU HUB</title>
 
 
 
@@ -22,8 +14,13 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript">
 $("document").ready(function(){
- $('[data-toggle="tooltip"]').tooltip();
- 
+    $( ".cOne" ).hover(
+  function() {
+    $( ".ussms-text").html( "LAW FEST !! CLICK TO VIEW THE FEST PAGE!  ");
+  }, function() {
+    $(".ussms-text").html("UNIVERSITY SCHOOL OF MANAGEMENT STUDIES");
+  }
+);
 
 $( ".cTwo" ).hover(
 function() {
@@ -49,7 +46,12 @@ $( ".ussbt-text").html( "CHEMCHORD 2016 !! <a href='chemchord.html'>" + "CLICK T
 $(".ussbt-text").html("UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY");
 }
 );
-
+$( ".cFive" ).hover(
+function() {
+$( ".usgra-text").html( "LAW FEST !! <a href='lfestmain.html'>" + "CLICK TO VIEW THE FEST PAGE! </a> " );
+}, function() {
+$(".usgra-text").html("UNIVERSITY SCHOOL OF BIOTECHNOLOGY");
+});
 
 
   });
@@ -68,9 +70,6 @@ $(".ussbt-text").html("UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY");
 @font-face {
   font-family: "Futura Std Bold";
   src: url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-Heavy.woff") format("woff"), url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-Heavy.otf") format("otf"), url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-Heavy.eot") format("eot"), url("//d2xzbo2ehns0vv.cloudfront.net/media/wysiwyg/futura-fonts/FuturaStd-Heavy.ttf") format("ttf");
-}
-.register{
-font-size:24px !important;
 }
   .image{
     width: 200px;
@@ -174,8 +173,6 @@ letter-spacing: 0.3em;
 
 }
 }
-
-
 </style>
 </head>
 
@@ -196,11 +193,11 @@ letter-spacing: 0.3em;
             </div>
           </div>
           <div class="row second">
-         <a href="ipubar.html">   <div data-toggle="tooltip"  title="Events : IPU-BAR THE Lex Fiesta" class="col-md-6 col-xs-6 cThree image">
+            <div class="col-md-6 col-xs-6 cThree image">
               <span class="ussls-text">  UNIVERSITY SCHOOL OF LAW AND LEGAL STUDIES</span>
                 <img class=" usit img-responsive ussls" src="campus.png" alt="" />
 
-            </div></a>
+            </div>
             <div class="col-md-6 col-xs-6 library image">
             LIBRARY
                 <img class="img-responsive lib" src="lib.png" alt="" />
@@ -208,10 +205,10 @@ letter-spacing: 0.3em;
             </div>
           </div>
           <div class="row third">
-         <a href="chemchord.html">   <div data-toggle="tooltip"  title="Events : CHEMCHORD 2016!! THE ANNUAL TECHNICAL FEST OF USCT"  class="col-md-6 col-xs-6 cFour image">
+            <div class="col-md-6 col-xs-6 cFour image">
                 <img class="img-responsive usit ussbt" src="campus.png" alt="" />
             <span class="ussbt-text">    UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY</span>
-            </div></a>
+            </div>
             <div class="col-md-6 col-xs-6 cFive image">
                 <img class="img-responsive usgra ussbtTwo" src="campus.png" alt="" />
               <span class="usgra-text">   UNIVERSITY SCHOOL OF BIOTECHNOLOGY</span>
@@ -246,6 +243,10 @@ letter-spacing: 0.3em;
       </div>
     </div>
   </section>
+
+<section>
+<div id="tlkio" data-channel="IPU-BAR" data-theme="theme--minimal" style="width:100%;height:400px;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
+</section>
   <section id="team">
     <br><br>
 <div class="container contmodify">
@@ -305,3 +306,5 @@ text-decoration: inherit;
   </style>
 
   </html>
+
+<script src="http://repository.chatwee.com/scripts/576d94a9f873ddcbd85d3c7bf0f4758c.js" type="text/javascript" charset="UTF-8"></script>
