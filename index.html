@@ -23,7 +23,7 @@
 <script type="text/javascript">
 $("document").ready(function(){
  $('[data-toggle="tooltip"]').tooltip();
- 
+
 
 $( ".cTwo" ).hover(
 function() {
@@ -49,7 +49,13 @@ $( ".ussbt-text").html( "CHEMCHORD 2016 !! <a href='chemchord.html'>" + "CLICK T
 $(".ussbt-text").html("UNIVERSITY SCHOOL OF CHEMICAL TECHNOLOGY");
 }
 );
-
+$( ".cSix" ).hover(
+function() {
+$( ".media-text").html( "MEDIA AKASH 2016 !! <a href='mediaakash.html'>" + "CLICK TO VIEW THE FEST PAGE! </a> " );
+}, function() {
+$(".media-text").html("UNIVERSITY SCHOOL OF MASS COMMUNICATION");
+}
+);
 
 
   });
@@ -80,7 +86,9 @@ font-size:24px !important;
 #college{
   margin-top: 2%;
 }
-
+a{
+  text-decoration: none !important;
+}
 .usls{
   transform: rotate(90deg);
 
@@ -144,6 +152,12 @@ letter-spacing: 0.3em;
 }
 .camp{
   font-size: 10px;
+}
+.media{
+  padding-top: 6em;
+}
+.mediaCol{
+  height:100px;
 }
 @media only screen and (max-width: 500px) {
     .image{
@@ -242,6 +256,29 @@ letter-spacing: 0.3em;
     SCROLL OVER THE BLOCK TO HUNT A DEPARTMENT'S FEST
   </div>
         </center>
+        <div class="media cSix">
+<center>
+
+          <a href="mediaakash.html">   <div data-toggle="tooltip"  title="Events : MEDIAAKASH 2016!! THE ANNUAL TECHNICAL FEST OF USMC" >
+                 <div class="row">
+                   <div class="col-md-2 col-md-offset-3">
+                     <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                      <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                   </div>
+                   <div class="col-md-2">
+                     <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                      <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                   </div>
+                   <div class="col-md-2">
+                     <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                      <img class="img-responsive mediaCol" src="mc.png" alt="" />
+                   </div>
+                 </div>
+             <span class="media-text">    UNIVERSITY SCHOOL OF MASS COMMUNICATION</span>
+             </div></a>
+
+          </div>
+        </div>
         </div>
       </div>
     </div>

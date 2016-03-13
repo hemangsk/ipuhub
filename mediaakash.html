@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+  <link href='https://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+
+  <style media="screen">
+  @-webkit-keyframes mymove {
+    0%   {transform: rotate(0deg)}
+
+    100% {transform: rotate(1800deg)}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {transform: rotate(0deg)}
+
+    100% {transform: rotate(1800deg)}
+}
+.reel, .people{
+  padding:10px;
+  animation: mymove 10s infinite;
+  -webkit-animation: mymove 10s infinite;
+}
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    background-color: white !important;
+  }
+  .navbar-nav {
+  width:100%;
+    text-align: center;
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar{
+  margin-bottom: 0px !important;
+
+  }
+  .navbar-default .navbar-nav > li > a{
+  color:  black!important;
+  }
+  .navbar-default .navbar-nav > li > a:hover{
+  color:#006984!important;
+  }
+  .navbar-default .navbar-nav > .active > a{
+    color: skyblue !important;
+  }
+  .tit{
+    padding-top: 7em;
+  }
+  .navbar-nav{
+    font-family: "Futura Std Book" !important;
+    color:black;
+    font-weight: 600;
+  }
+  .navbar-default{
+    background-color:white !important;
+    color:black !important;
+  }
+    #particles {}
+
+    .video {}
+
+    h1 {
+      font-family: "Futura Std Medium" !important;
+      font-size: 60px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+    }
+
+    #particles {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  .stuff{
+    font-family: "Futura Std Medium";
+    font-size: 16px;
+    color: white;
+    border: 3px solid white;
+    padding-left:5px;
+  }
+  .txt{
+    font-family: "Futura Std Medium";
+    font-size: 20px;
+    color: white;
+    border: 3px solid white;
+  }
+    #events {
+      background-color: #006984;
+      height: 300px;
+    }
+
+    .poem {
+      font-family: "Great Vibes";
+      font-size: 30px;
+    }
+
+    #main {
+      background-image: url("back.png");
+      background-size: cover;
+      height: 680px;
+
+    }
+    .people{
+      height:300px;
+      width:300px;
+    }
+
+    .a {
+      border: 5px solid black;
+      padding: 3px;
+    }
+    .title{
+      font-family: "Futura Std Medium";
+      font-size: 55px;
+    }
+
+    #space {
+      height: 700px !important;
+      background-size: cover;
+      background-image: url('space.png')
+    }
+
+    .video {
+      height: 200px;
+      width: 80%;
+    }
+
+    .head {
+      font-family: "Futura Std Medium";
+      letter-spacing: 6px;
+    }
+
+    .college {
+      font-family: "Futura Std Medium";
+      letter-spacing: 6px;
+    }
+
+    .date {
+      font-family: "Futura Std Medium";
+      letter-spacing: 6px;
+      font-size: 30px;
+    }
+
+    h3 {
+      font-family: "Futura";
+    }
+
+    p {
+      color: white;
+      font-family: "Futura Std Medium";
+      letter-spacing: 0.7px;
+      text-indent: 0.3px;
+    }
+
+    .title {
+      border: 0px solid white;
+
+      margin-top: 3em;
+    }
+
+    .titleS {
+      border: 3px solid white;
+      padding: 0px 0px 0px 10px;
+    }
+
+    h2 {
+      font-family: "Futura";
+      font-weight: 600;
+      color: skyblue;
+      font-size: 20px !important;
+    }
+
+    .ph {
+      height: 100px !important;
+    }
+
+    .eve {
+      height: 250px;
+      width: 250px;
+      padding: 10px;
+    }
+
+    .reel {
+      height: 100px;
+      width: 100px;
+      margin-top: 4em;
+    }
+
+    .eventstory {
+      padding-top: 7em;
+    }
+
+    .reel2 {
+      height: 150px;
+      width: 150px;
+      margin-right: 100%;
+    }
+
+    .cam {
+      padding-top: 5em;
+    }
+
+    .eveb {
+      background-color: #006984;
+    }
+    #evew{
+      background-color: white;
+    }
+    #eves{
+      background-color: #006984;
+    }
+
+    @media only screen and (max-width: 500px) {
+      #main {
+        background-image: url("back.png");
+        background-size: cover;
+       height:250px;
+
+
+      }
+      .head{
+        padding-top: -30px;
+      }
+      h1{
+        letter-spacing: 0px !important;
+        font-size: 20px;
+      }
+      .date{
+        font-size: 14px;
+        color: black;
+margin-top: 110px !important;
+
+      }
+      .college{
+
+        color:black;
+      }
+      .eventstory {
+        padding-top: 2em;
+      }
+      #events{
+        height:600px;
+      }
+
+      #space{
+
+
+         height:800px !important;
+      }
+      .eve {
+        height: 150px;
+        width: 150px;
+        padding: 5px;
+      }
+      .reel{
+      height: 60px;
+       width:60px;
+      }
+      .reel2{
+        height:100px;
+        width:100px;
+      }
+      .title {
+        border: 5px solid white;
+        padding: 0px 0px 0px 3px;
+        margin-top: 1em;
+      }
+      .cam {
+        padding-top: 0em;
+      }
+      .titleS {
+        border: 0px solid white ;
+        padding: 0px 0px 0px 0px;
+        font-size: 12px !important;
+      }
+      h2{
+        font-size: 8px !important;
+      }
+      .stuff{
+        padding: 5px;
+        border: 0px !important;
+      }
+      .people{
+        height: 150px;
+        width:150px;
+
+      }
+      .txt{
+        font-family: "Futura Std Medium";
+        font-size: 14px !important;
+        color: white;
+        border:3px solid white;
+      }
+      .videocam{
+        height:70px;
+        width:300px;
+      }
+      .tit{
+        padding-top: 0em;
+      }
+      .head, .college{
+        font-size: 10px;
+      }
+      .name{
+        padding-left: 24px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+          <li ><a href="index.html">HOME</a></li>
+            <li class="active" ><a href="mediaakash.html">MEDIA AKASH</a></li>
+          <li ><a href="#events">EVENTS</a></li>
+          <li><a href="index.html/#chatbox">ASK QUERY</a></li>
+          <li><a href="#">CONTACT</a></li>
+
+
+
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <section id="main">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-10 col-xs-12 col-xs-offset-0 tit">
+          <center>
+
+
+            <div class="head">
+              GURU GOBIND SINGH INDRAPRASTHA UNIVERSITY
+            </div>
+
+            <div class="name">
+              <h1><span class="a">M</span>EDIA<span style="color:skyblue">AKASH</span></h1>
+            </div>
+            <br>
+            <div class="college col-xs-12">
+              UNIVERSITY SCHOOL OF MASS COMMUNICATION
+            </div>
+            <div class="date">
+              30 MARCH | 31 MARCH
+            </div>
+          </center>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="events">
+    <div class="container">
+      <div class="content">
+        <div class="row">
+          <div class="col-md-4">
+            <center>
+              <h3><span style="color:white">MEDIA</span><span style="color:skyblue">AKASH</span></h3>
+            </center>
+          </div>
+          <div class="col-md-8">
+            <div class="story">
+              <center>
+                <p> University School of Mass Communication, IP University is all set to host its second media festival, MediaAkash.
+                  <br> MediaAkash aims towards bringing the media students from various institutes under one roof so as to enable them to exchange ideas; interact and in the process, grow as individuals and as professionals. In order to make this festival
+                  a successful platform, MediaAkash is looking forward to see participation from approximately 57 institutes.</p>
+                <p>The carnival, MediaAkash provides a plethora of opportunities to the students across the city. From panel discussions to various field specific competitions, we hope to provide the participants with a platform where they would be able
+                  to showcase their talent and receive feedback from the distinguished judges and faculty.</p>
+                <p>
+                  The tentative dates for the fest have been finalized as on 30th and 31st March’2016. Meanwhile, put on your thinking caps, hone your skills a bit more, wait enthusiastically for further updates and save the dates.</p>
+              </center>
+            </div>
+          </div>
+        </div>
+      <!--  <div class="row">
+          <center>
+            <div class="col-md-2">
+              <h2>CELL - O - TAPE </h2>
+            </div>
+            <div class="col-md-2">
+              <h2>VIEWFINDER</h2>
+            </div>
+            <div class="col-md-2">
+              <h2>MINI - MATINEE</h2>
+            </div>
+            <div class="col-md-4">
+              <h2>MR &amp; MS MEDIA BUFF</h2>
+            </div>
+            <div class="col-md-2">
+              <h2>BOL - O - MEDIA</h2>
+            </div>
+          </center>
+        </div>-->
+        <div class="">
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section id="space">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <center>
+          <img class="img-responsive people" src="p.png" alt="" />
+          <div class="txt">
+            MR &amp; MS MEDIA BUFF
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="row">
+            <div class="title">
+              <center><span style="color:white">EVENTS</span><br>
+
+            </center>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-md-6 col-xs-6">
+              <center><img class="img-responsive reel" src="r1.png" alt="" /></center>
+            </div>
+            <div class="col-md-6 col-xs-6">
+              <center>  <img class="img-responsive reel"src="r1.png" alt="" /></center>
+            </div>
+          </div>
+          <div class="row">
+          <center>  <img class="img-responsive videocam" src="vid.png" alt="" /></center>
+        </div>
+
+          <div class="row">
+            <center>
+            <div class="col-md-4 col-xs-12 stuff">
+              MINI MATINEE
+            </div>
+            <div class="col-md-4 col-xs-12 stuff">
+              VIEWFINDER
+            </div>
+            <div class="col-md-4 col-xs-12 stuff">
+              CELL-O-TAPE
+            </div>
+          </center>
+          </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-xs-12">
+            <center><img class="img-responsive people" src="m.png" alt="" />
+            <div class="txt">
+              BOL - O - MEDIA</center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section id="eves">
+    <div class="container">
+      <div class="row"><center>
+        <div class="col-md-4 col-xs-12">
+            <h3><span style="color:white">MR &amp; MS </span><span style="color:skyblue">MEDIA BUFF</span></h3>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <div class="story eventstory">
+            <center>
+              <p> "In order to succeed, we must first believe that we can." - Nikos Kazantzakis Participate in our event, Mr. And Ms. Media Buff and discover yourself! Register here
+              </p>
+            </center>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <h1><a href="#"><span style="color:white !important;">REGISTER</span></a></h1>
+        </div>
+
+    </div>
+  </section>
+  <section id="evew">
+    <div class="container">
+      <div class="row"><center>
+        <div class="col-md-8 col-xs-12">
+          <div class="story eventstory">
+            <center>
+              <p style="color:#006984 !important"> "After silence, that which comes nearest to expressing the inexpressible, is music."-Aldous Huxley
+To participate in our music event, Bol-o-Media, register here!
+              </p>
+            </center>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <h3><span style="color:#006984">BOL -  </span><span style="color:skyblue">O - MEDIA  </div>
+
+      </div>
+        <div class="row pull-right">
+            <h1><span style="color:#006984;!important"><a href="">REGISTER</a></span></h1>
+        </div>
+
+    </div>
+  </section>
+  <section id="eves">
+    <div class="container">
+      <div class="row"><center>
+        <div class="col-md-4 col-xs-12">
+  <h3><span style="color:white">VIEW</span><span style="color:skyblue">FINDER</span></h3>        </div>
+        <div class="col-md-8 col-xs-12">
+          <div class="story eventstory">
+            <center>
+              <p> “You don't make a photograph just with a camera. You bring to the act of photography all the pictures you have seen, the books you have read, the music you have heard, the people you have loved.”― Ansel Adams
+    Register for our photography event, Viewfinder here!
+              </p>
+            </center>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <h1><a href="#"><span style="color:white !important;">REGISTER</span></a></h1>
+        </div>
+
+    </div>
+  </section>
+  <section id="evew">
+    <div class="container">
+      <div class="row"><center>
+        <div class="col-md-8 col-xs-12">
+          <div class="story eventstory">
+            <center>
+              <p style="color:#006984 !important"> "Audience can live without a movie but a movie cannot live without an audience." Amit Kalantri
+To participate in Cell-o-Tape, our Mobile Film Making event, register here!
+              </p>
+            </center>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h3><span style="color:#006984">CELL - O - </span><span style="color:skyblue">TAPE</span></h3>
+          </div>
+
+      </div>
+        <div class="row pull-right">
+            <h1><span style="color:#006984;!important"><a href="">REGISTER</a></span></h1>
+        </div>
+
+    </div>
+  </section>
+  <section id="eves">
+    <div class="container">
+      <div class="row"><center>
+        <div class="col-md-4 col-xs-12">
+          <h3><span style="color:white">MINI </span><span style="color:skyblue">MARTINI</span></h3>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <div class="story eventstory">
+            <center>
+              <p> "Stories through the electronic canvas."
+              </p>
+            </center>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <h1><a href="#"><span style="color:white !important;">REGISTER</span></a></h1>
+        </div>
+
+    </div>
+  </section>
+
+  <section id="chatbox">
+    <div class="container">
+      <div id="tlkio" data-channel="mediaakash" style="width:100%;height:400px;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
+
+    </div>
+
+  </section>
+  <section id="fb">
+
+<div class="container">
+      <div class="row">
+        <center>
+
+        <div class="col-md-12 college fb">
+        <a style="color: white ;" href="#">FACEBOOK PAGE - MEDIAAKASH 2016</a>
+        </div>
+      </center>
+      </div>
+</div>
+  </section>
+
+  <section id="footer">
+
+    <div class="container">
+      <div class="row">
+        <center>
+        <div class="col-md-12 college">
+         MADE WITH <i class="fa fa-heart"></i> BY TEAM IPU HUB
+        </div>
+      </center>
+      </div>
+    </div>
+  </section>
+</body>
+
+<style media="screen">
+  #footer{
+    padding: 20px;
+    background-color: #1a237e !important;
+    color: white;
+  }
+  #team{
+
+  }
+  .fa-heart{
+    color:red;
+    font-size: 30px;
+  }
+
+
+
+  #fb{
+    background-color: #0d47a1;
+    padding: 20px;
+    color: white;
+    font-family: "Futura Std Medium"
+  }
+</style>
+</body>
+</html>
